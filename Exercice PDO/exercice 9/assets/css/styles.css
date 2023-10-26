@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #333;  /* Couleur d'arrière-plan du header */
+    padding: 10px 0;  /* Espacement en haut et en bas du header */
+    text-align: center;  /* Centrer le contenu horizontalement */
+}
+
+/* Style pour la navigation */
+nav {
+    display: inline-block;  /* Pour permettre au nav de s'ajuster à sa largeur de contenu */
+}
+
+nav ul {
+    list-style-type: none;  /* Supprimer les puces de la liste */
+}
+
+nav li {
+    display: inline;  /* Afficher les éléments de liste côte à côte */
+}
+
+nav a {
+    text-decoration: none;  /* Supprimer le soulignement des liens */
+    color: #fff;  /* Couleur du texte des liens */
+    padding: 10px 20px;  /* Espacement autour des liens */
+    border-radius: 5px;  /* Coins arrondis des liens */
+    transition: background-color 0.3s;  /* Animation douce lors du changement de couleur d'arrière-plan */
+}
+
+nav a:hover {
+    background-color: #555;  /* Couleur d'arrière-plan des liens au survol */
+}
